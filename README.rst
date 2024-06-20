@@ -2,6 +2,11 @@
 Django DB Shell Plus
 ====================
 
+**NOTE:**
+This is a fork from
+https://github.com/simonpercivall/django-dbshell-plus, which has not
+been maintained for over 9 years.
+
 
 .. image:: https://badge.fury.io/py/django_dbshell_plus.png
     :target: http://badge.fury.io/py/django-dbshell-plus
