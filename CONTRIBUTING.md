@@ -1,48 +1,40 @@
-============
-Contributing
-============
+# Contributing
 
 Contributions are welcome, and they are greatly appreciated! Every
 little bit helps, and credit will always be given. 
 
 You can contribute in many ways:
 
-Types of Contributions
-----------------------
+## Types of Contributions
 
-Report Bugs
-~~~~~~~~~~~
+### Report Bugs
 
-Report bugs at https://github.com/simonpercivall/django-dbshell-plus.
+Report bugs at https://github.com/hacktoolkit/django-dbshell-plus.
 
 If you are reporting a bug, please include:
 
 * Any details about your local setup that might be helpful in troubleshooting.
 * Detailed steps to reproduce the bug.
 
-Fix Bugs
-~~~~~~~~
+### Fix Bugs
 
 Look through the GitHub issues for bugs. Anything tagged with "bug"
 is open to whoever wants to implement it.
 
-Implement Features
-~~~~~~~~~~~~~~~~~~
+### Implement Features
 
 Look through the GitHub issues for features. Anything tagged with "feature"
 is open to whoever wants to implement it.
 
-Write Documentation
-~~~~~~~~~~~~~~~~~~~
+### Write Documentation
 
 Django DB Shell Plus could always use more documentation, whether as part of the 
 official Django DB Shell Plus docs, in docstrings, or even on the web in blog posts,
 articles, and such.
 
-Submit Feedback
-~~~~~~~~~~~~~~~
+### Submit Feedback
 
-The best way to send feedback is to file an issueat https://github.com/simonpercivall/django-dbshell-plus/issues.
+The best way to send feedback is to file an issue at https://github.com/hacktoolkit/django-dbshell-plus.
 
 If you are proposing a feature:
 
@@ -51,8 +43,7 @@ If you are proposing a feature:
 * Remember that this is a volunteer-driven project, and that contributions
   are welcome :)
 
-Get Started!
-------------
+## Get Started!
 
 Ready to contribute? Here's how to set up `django_dbshell_plus` for local development.
 
@@ -67,8 +58,7 @@ Ready to contribute? Here's how to set up `django_dbshell_plus` for local develo
 
 6. Commit and send the patch or create a pull request.
 
-Pull Request Guidelines
------------------------
+## Pull Request Guidelines
 
 Before you submit a pull request, check that it meets these guidelines:
 

@@ -2,10 +2,11 @@
 # -*- coding: utf-8 -*-
 import os
 import re
-from setuptools import setup, find_packages
 
-readme = open('README.rst').read()
-history = open('HISTORY.rst').read().replace('.. :changelog:', '')
+from setuptools import find_packages, setup
+
+readme = open('README.md').read()
+history = open('HISTORY.md').read().replace('# Changelog', '')
 
 
 def read_reqs(name):
@@ -24,13 +25,13 @@ def read_version():
 # NB: _don't_ add namespace_packages to setup(), it'll break
 #     everything using imp.find_module
 setup(
-    name='django-dbshell-plus',
+    name='htk-django-dbshell-plus',
     version=read_version(),
     description='A dbshell_plus management command for Django that selects pgcli or mycli when available.',
     long_description=readme + '\n\n' + history,
-    author='Simon Percivall',
-    author_email='percivall@gmail.com',
-    url='https://github.com/simonpercivall/django-dbshell-plus',
+    author='Hacktoolkit',
+    author_email='hello@hacktoolkit.com',
+    url='https://github.com/hacktoolkit/django-dbshell-plus',
     packages=find_packages('lib'),
     package_dir={'': 'lib'},
     include_package_data=True,
@@ -43,10 +44,6 @@ setup(
         'Intended Audience :: Developers',
         'License :: OSI Approved :: BSD License',
         'Natural Language :: English',
-        "Programming Language :: Python :: 2",
-        'Programming Language :: Python :: 2.6',
-        'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.3',
     ],
 )
