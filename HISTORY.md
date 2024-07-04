@@ -1,6 +1,13 @@
 # Changelog
 
-Here's the recent changes to Django DB Shell Plus.
+Here's the recent changes to HTK Django DB Shell Plus.
+
+---
+
+Version: 2.0.1
+Released: 2024-07-04
+
+Fix packaging
 
 ---
 

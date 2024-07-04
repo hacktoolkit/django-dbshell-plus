@@ -15,7 +15,7 @@ def read_reqs(name):
 
 
 def read_version():
-    with open(os.path.join('lib', 'django_dbshell_plus', '__init__.py')) as f:
+    with open(os.path.join('lib', 'htk_django_dbshell_plus', '__init__.py')) as f:
         m = re.search(r'''__version__\s*=\s*['"]([^'"]*)['"]''', f.read())
         if m:
             return m.group(1)
@@ -38,7 +38,7 @@ setup(
     install_requires=read_reqs('requirements.txt'),
     license="BSD",
     zip_safe=False,
-    keywords='django-dbshell-plus',
+    keywords='htk-django-dbshell-plus',
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'Intended Audience :: Developers',
