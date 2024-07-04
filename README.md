@@ -1,8 +1,6 @@
 # HTK Django DB Shell Plus
 
-[https://badge.fury.io/py/htk_django_dbshell_plus.png](http://badge.fury.io/py/htk-django-dbshell-plus)
-
-[https://pypip.in/d/htk_django_dbshell_plus/badge.png](https://crate.io/packages/htk-django-dbshell-plus?version=latest)
+[![PyPI version](https://badge.fury.io/py/htk-django-dbshell-plus.svg)](https://badge.fury.io/py/htk-django-dbshell-plus)
 
 A `dbshell_plus` management command for Django that selects `pgcli` or `mycli` when available.
 
